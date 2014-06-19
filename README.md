@@ -10,12 +10,12 @@
 ### 1. Include the latest jQuery library and jQuery slider Plugin on the page
 ```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="jquery.blinkingtext.js"></script>
+<script src="jquery.blinktext.js"></script>
 ```
 
 ### 2. Create a list of text you want to scroll
 ```html
-<div class="blinkingtext">
+<div class="blinktext">
 	Some text
 </div>
 ```
@@ -23,7 +23,7 @@
 ### 3. Initialization
 ```js
 $(document).ready(function(){
-	$('.blinkingtext').blinkingtext({
+	$('.blinktext').blinktext({
 	});
 });
 ```
