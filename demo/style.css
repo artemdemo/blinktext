@@ -1,0 +1,18 @@
+body {
+	font-family: Arial;
+	font-size: 15px;
+	color: #2E2E2E;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 800px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+div.blinkingtext {
+	text-align: center;
+	margin: 20px;
+}
